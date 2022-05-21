@@ -31,6 +31,8 @@ Enter the date(for example:09 02 2019):11 10 1880
 Monday
 
 ```
+*You can expand on this concept, like using it in games, and things like that, so if you want to, go ahead!*
+
 # Errors:
 
 *When you don't type anything, and just hit enter, the program will become confused, resulting in a lengthy error.*
