@@ -12,7 +12,7 @@ day = datetime.datetime.strptime(date, '%d %m %Y').weekday()
 print(day_name[day]) 
 
 ```
-*What this code does, is become farmilliarised with the days of the week, and, using datetime recognses the year. When run, you have to enter a date (eg. 08 06 2012) and locates the day for that date.*
+*What this code does, is become farmilliarised with the days of the week, and, using datetime recognises the year. When run, you have to enter a date (eg. 08 06 2012) and locates the day for that date.*
 
 ## Examples:
 
@@ -29,3 +29,17 @@ Enter the date(for example:09 02 2019):11 10 1880
 Monday
 
 ```
+# Errors:
+
+*When you don't type anything, and just hit enter, the program will become confused, resulting in a lengthy syntax error*
+
+*(I've blurred out my username with *s, for privacy reasons, thanks for understanding.*
+```
+Traceback (most recent call last):
+  File "C:\Users\******\AppData\Local\Programs\Python\Python310\calendar test.py", line 4, in <module>
+    day = datetime.datetime.strptime(date, '%d %m %Y').weekday()
+  File "C:\*******\AppData\Local\Programs\Python\Python310\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\*******\AppData\Local\Programs\Python\Python310\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '' does not match format '%d %m %Y'
