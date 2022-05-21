@@ -4,6 +4,8 @@
 
 # Code:
 
+*For simplicity let's name this file "calendar test".*
+
 ```
 import datetime 
 date=str(input('Enter the date(for example:09 02 2019):'))
@@ -31,9 +33,9 @@ Monday
 ```
 # Errors:
 
-*When you don't type anything, and just hit enter, the program will become confused, resulting in a lengthy syntax error*
+*When you don't type anything, and just hit enter, the program will become confused, resulting in a lengthy error.*
 
-*(I've blurred out my username with *s, for privacy reasons, thanks for understanding.*
+*(I've blurred out my username with multiple *'s, for privacy reasons. Thanks for understanding!*
 ```
 Traceback (most recent call last):
   File "C:\Users\******\AppData\Local\Programs\Python\Python310\calendar test.py", line 4, in <module>
@@ -43,3 +45,8 @@ Traceback (most recent call last):
   File "C:\Users\*******\AppData\Local\Programs\Python\Python310\lib\_strptime.py", line 349, in _strptime
     raise ValueError("time data %r does not match format %r" %
 ValueError: time data '' does not match format '%d %m %Y'
+
+```
+# Thanks for reading!
+
+*I hope this was useful!*
