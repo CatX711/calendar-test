@@ -8,7 +8,7 @@
 
 ```
 import datetime 
-date=str(input('Enter the date(for example:09 02 2019):'))
+date = str(input('Enter the date(for example:09 02 2019):'))
 day_name= ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday','Sunday']
 day = datetime.datetime.strptime(date, '%d %m %Y').weekday()
 print(day_name[day]) 
@@ -37,7 +37,7 @@ Monday
 
 *When you don't type anything, and just hit enter, the program will become confused, resulting in a lengthy error.*
 
-*(I've blurred out my username with multiple stars, for privacy reasons. Thanks for understanding!*
+*(I've blurred out my username with multiple astrics, for privacy reasons. Thanks for understanding!*
 ```
 Traceback (most recent call last):
   File "C:\Users\******\AppData\Local\Programs\Python\Python310\calendar test.py", line 4, in <module>
