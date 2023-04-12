@@ -6,7 +6,7 @@
 
 *For simplicity let's name this file "calendar test".*
 
-```
+```py
 import datetime 
 date = str(input('Enter the date(for example:09 02 2019):'))
 day_name= ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday','Sunday']
